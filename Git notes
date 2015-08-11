@@ -1,0 +1,9 @@
+initialize git repository git init
+
+
+git add . (add all but deleted files)
+
+git add -A (add all including deleted files)
+
+
+git add commit -m "message here"

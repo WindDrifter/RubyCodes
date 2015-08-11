@@ -1,0 +1,42 @@
+chown = change owner
+
+top = activity monitor
+
+
+cat: viewing files (for programming files like .rb)
+
+kill:
+  usage: kill pid
+  use -9 force process to quit
+    usage: kill -9 pid
+
+grep: for narrowing view result
+
+usage: cat file | grep variable  or ps -ax | grep processName
+
+
+
+ps: processes
+
+ps -ax | grep Slack
+
+
+SSH: secure shell to access remote a computer
+
+usage: ssh hostName
+
+
+ssh-keygen -t rsa -b 4096 -C "email@example.com”
+
+
+
+echo "# Test" >> README.md\
+
+Git hub commands
+
+echo "# Test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:WindDrifter/Test.git
+git push -u origin master
